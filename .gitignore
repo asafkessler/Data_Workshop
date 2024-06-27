@@ -1,6 +1,21 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
 
-# .v4p backup files
-*~.xml
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Dynamic plugins .dll
-bin/
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore NumPy data files
+*.npy
+*.npz
+
+# Ignore log files
+*.log
+
+# Ignore Windows system files
+Thumbs.db
